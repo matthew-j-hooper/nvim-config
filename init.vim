@@ -19,6 +19,7 @@ Plug 'romgrk/barbar.nvim'				"-Reformats Tabs
 Plug 'petertriho/nvim-scrollbar'		"-Adds scrollbar
 Plug 'kevinhwang91/nvim-hlslens'		"-Adds search results to scrollbar
 Plug 'AckslD/nvim-neoclip.lua'			"-Adds Yank History
+Plug 'isakbm/gitgraph.nvim'				"-Adds git tree buffer
 
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/cmp-nvim-lsp'
@@ -38,6 +39,7 @@ lua require('barbar-config')
 lua require('scrollbar-config')
 lua require('hlslens-config')
 lua require('neoclip-config')
+lua require('gitgraph-config')
 
 colorscheme gruvbox
 autocmd VimEnter * NERDTree | wincmd p
