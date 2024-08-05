@@ -41,5 +41,4 @@ lua require('hlslens-config')
 lua require('neoclip-config')
 lua require('gitgraph-config')
 
-colorscheme gruvbox
 autocmd VimEnter * NERDTree | wincmd p
