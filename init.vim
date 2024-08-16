@@ -20,6 +20,7 @@ Plug 'petertriho/nvim-scrollbar'		"-Adds scrollbar
 Plug 'kevinhwang91/nvim-hlslens'		"-Adds search results to scrollbar
 Plug 'AckslD/nvim-neoclip.lua'			"-Adds Yank History
 Plug 'isakbm/gitgraph.nvim'				"-Adds git tree buffer
+Plug 'mechatroner/rainbow_csv'			"-Adds tools for editing csv files
 
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/cmp-nvim-lsp'
