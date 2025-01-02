@@ -7,10 +7,9 @@
 
 call plug#begin()
 Plug 'nvim-lua/plenary.nvim'			"-Dependancy for telescope
-Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
+Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'nvim-telescope/telescope.nvim'	"-File Searching
 Plug 'scrooloose/nerdtree'				"-File Tree Windows
-Plug 'feline-nvim/feline.nvim'			"-Reformats Bottom Bar
 Plug 'lewis6991/gitsigns.nvim'			"-Git Intergration
 Plug 'ryanoasis/vim-devicons'			"-Adds Icons, recommended last entry
 Plug 'nvim-tree/nvim-web-devicons'		"-Adds Icons, recommended last entry
@@ -44,4 +43,4 @@ lua require('neoclip-config')
 lua require('gitgraph-config')
 
 colorscheme simpleblack
-autocmd VimEnter * NERDTree | wincmd p
+"autocmd VimEnter * NERDTree | wincmd p
