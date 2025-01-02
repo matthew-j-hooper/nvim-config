@@ -35,8 +35,6 @@ Plug 'saadparwaiz1/cmp_luasnip'
 call plug#end()
 
 lua require('telescope-config')
-"lua require('gruvbox-config')
-"lua require('feline-config')
 lua require('gitsigns-config')
 lua require('lspconfig-config')
 lua require('barbar-config')
