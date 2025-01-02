@@ -12,7 +12,6 @@ Plug 'nvim-telescope/telescope.nvim'	"-File Searching
 Plug 'scrooloose/nerdtree'				"-File Tree Windows
 Plug 'feline-nvim/feline.nvim'			"-Reformats Bottom Bar
 Plug 'lewis6991/gitsigns.nvim'			"-Git Intergration
-Plug 'ellisonleao/gruvbox.nvim'			"-Color Scheme
 Plug 'ryanoasis/vim-devicons'			"-Adds Icons, recommended last entry
 Plug 'nvim-tree/nvim-web-devicons'		"-Adds Icons, recommended last entry
 Plug 'romgrk/barbar.nvim'				"-Reformats Tabs
@@ -21,6 +20,10 @@ Plug 'kevinhwang91/nvim-hlslens'		"-Adds search results to scrollbar
 Plug 'AckslD/nvim-neoclip.lua'			"-Adds Yank History
 Plug 'isakbm/gitgraph.nvim'				"-Adds git tree buffer
 Plug 'mechatroner/rainbow_csv'			"-Adds tools for editing csv files
+
+Plug 'ellisonleao/gruvbox.nvim'			"-Color Schemes
+Plug 'bignimbus/pop-punk.vim'
+Plug 'lucasprag/simpleblack'
 
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/cmp-nvim-lsp'
@@ -32,8 +35,8 @@ Plug 'saadparwaiz1/cmp_luasnip'
 call plug#end()
 
 lua require('telescope-config')
-lua require('gruvbox-config')
-lua require('feline-config')
+"lua require('gruvbox-config')
+"lua require('feline-config')
 lua require('gitsigns-config')
 lua require('lspconfig-config')
 lua require('barbar-config')
@@ -42,4 +45,5 @@ lua require('hlslens-config')
 lua require('neoclip-config')
 lua require('gitgraph-config')
 
+colorscheme simpleblack
 autocmd VimEnter * NERDTree | wincmd p
