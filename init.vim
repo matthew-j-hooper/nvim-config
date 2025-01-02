@@ -8,7 +8,6 @@
 call plug#begin()
 
 " -- Misc Addons
-Plug 'scrooloose/nerdtree'				"-File Tree Windows
 Plug 'lewis6991/gitsigns.nvim'			"-Git Intergration
 Plug 'ryanoasis/vim-devicons'			"-Adds Icons, recommended last entry
 Plug 'nvim-tree/nvim-web-devicons'		"-Adds Icons, recommended last entry
@@ -21,7 +20,7 @@ Plug 'mechatroner/rainbow_csv'			"-Adds tools for editing csv files
 
 " -- Color schemes
 Plug 'ellisonleao/gruvbox.nvim'
-Plug 'bignimbus/pop-punk.vim'
+Plug 'folke/tokyonight.nvim'
 Plug 'lucasprag/simpleblack'
 
 " -- Telescope and Telescope dependancies
@@ -50,4 +49,3 @@ lua require('neoclip-config')
 lua require('gitgraph-config')
 
 colorscheme simpleblack
-"autocmd VimEnter * NERDTree | wincmd p
