@@ -45,18 +45,7 @@ require('lspconfig').pyright.setup {
 	  python = {
 		  analysis = {
 			  extraPaths = {
-				  '/usr/share/blender/4.1/scripts/startup', 
-				  '/usr/share/blender/4.1/scripts/modules', 
-				  '/usr/lib/python312.zip', 
-				  '/usr/lib/python3.12', 
-				  '/usr/lib/python3.12/lib-dynload', 
-				  '/usr/lib/python3.12/site-packages', 
-				  '/usr/share/blender/4.1/scripts/freestyle/modules', 
-				  '/usr/share/blender/4.1/scripts/addons/modules', 
-				  '/home/matthew/.config/blender/4.1/scripts/addons/modules', 
-				  '/usr/share/blender/4.1/scripts/addons', 
-				  '/home/matthew/.config/blender/4.1/scripts/addons', 
-				  '/usr/share/blender/4.1/scripts/addons_contrib'
+				  '/usr/share/blender/4.3/scripts/modules', 
 			  }
 		  }
 	  }
