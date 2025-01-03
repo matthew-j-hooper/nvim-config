@@ -42,12 +42,12 @@ local capabilities = require('cmp_nvim_lsp').default_capabilities()
 require('lspconfig').pyright.setup {
   capabilities = capabilities,
   settings = {
-	  python = {
-		  analysis = {
-			  extraPaths = {
-				  '/usr/share/blender/4.3/scripts/modules', 
-			  }
-		  }
-	  }
+    python = {
+      analysis = {
+        extraPaths = {
+          '/usr/share/blender/4.3/scripts/modules', 
+        }
+      }
+    }
   }
 }
