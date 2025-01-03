@@ -44,9 +44,10 @@ require('lspconfig').pyright.setup {
   settings = {
     python = {
       analysis = {
-        extraPaths = {
-          '/usr/share/blender/4.3/scripts/modules', 
-        }
+		diagnosticSeverityOverrides = {
+		  reportMissingImports = "none",
+		},
+        extraPaths = { '/usr/share/blender/4.3/scripts/modules', }
       }
     }
   }
