@@ -9,14 +9,12 @@ call plug#begin()
 
 " -- Misc Addons
 Plug 'lewis6991/gitsigns.nvim'			"-Git Intergration
-Plug 'ryanoasis/vim-devicons'			"-Adds Icons, recommended last entry
-Plug 'nvim-tree/nvim-web-devicons'		"-Adds Icons, recommended last entry
 Plug 'romgrk/barbar.nvim'				"-Reformats Tabs
 Plug 'petertriho/nvim-scrollbar'		"-Adds scrollbar
 Plug 'kevinhwang91/nvim-hlslens'		"-Adds search results to scrollbar
 Plug 'AckslD/nvim-neoclip.lua'			"-Adds Yank History
-Plug 'isakbm/gitgraph.nvim'				"-Adds git tree buffer
 Plug 'mechatroner/rainbow_csv'			"-Adds tools for editing csv files
+Plug 'nvim-tree/nvim-web-devicons'		"-Adds Icons, recommended last entry
 
 " -- Color schemes
 Plug 'ellisonleao/gruvbox.nvim'
@@ -25,7 +23,7 @@ Plug 'lucasprag/simpleblack'
 
 " -- Telescope and Telescope dependancies
 Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'nvim-telescope/telescope.nvim'
 
@@ -48,6 +46,5 @@ lua require('barbar-config')
 lua require('scrollbar-config')
 lua require('hlslens-config')
 lua require('neoclip-config')
-lua require('gitgraph-config')
 
 colorscheme simpleblack
