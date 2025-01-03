@@ -25,6 +25,7 @@ Plug 'lucasprag/simpleblack'
 
 " -- Telescope and Telescope dependancies
 Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'nvim-telescope/telescope.nvim'
 
@@ -40,6 +41,7 @@ Plug 'saadparwaiz1/cmp_luasnip'
 call plug#end()
 
 lua require('telescope-config')
+lua require('treesitter-config')
 lua require('gitsigns-config')
 lua require('lspconfig-config')
 lua require('barbar-config')
