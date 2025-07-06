@@ -1,16 +1,3 @@
-" On setup Please run:
-"
-" :TSInstall html
-" :TSInstall latex
-" :TSInstall <any language you use>
-"
-" Relevant packages on fedora to install:
-" sudo dnf install fd-find
-" sudo dnf install ripgrep
-"
-" Relevant packages on npm to install:
-" npm install pyright
-
 :set softtabstop=4
 :set tabstop=4
 :set shiftwidth=4
