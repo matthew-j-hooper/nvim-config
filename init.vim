@@ -1,3 +1,16 @@
+" On setup Please run:
+"
+" :TSInstall html
+" :TSInstall latex
+" :TSInstall <any language you use>
+"
+" Relevant packages on fedora to install:
+" sudo dnf install fd-find
+" sudo dnf install ripgrep
+"
+" Relevant packages on npm to install:
+" npm install pyright
+
 :set softtabstop=4
 :set tabstop=4
 :set shiftwidth=4
@@ -14,6 +27,7 @@ Plug 'petertriho/nvim-scrollbar'		"-Adds scrollbar
 Plug 'kevinhwang91/nvim-hlslens'		"-Adds search results to scrollbar
 Plug 'AckslD/nvim-neoclip.lua'			"-Adds Yank History
 Plug 'mechatroner/rainbow_csv'			"-Adds tools for editing csv files
+Plug 'MeanderingProgrammer/render-markdown.nvim'
 Plug 'nvim-tree/nvim-web-devicons'		"-Adds Icons, recommended last entry
 
 " -- Color schemes
