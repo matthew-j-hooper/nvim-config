@@ -9,20 +9,16 @@ Follow the steps below to install nvim with this configuration. This assumes
 you are using a fedora system, otherwise please change the install commands
 as necessary.
 
-0.  Install nvim: Install the text editor.
+0.  Install nvim: Install the text editor and the dependancies of the plugins.
 
-    > sudo dnf install neovim
+    > sudo dnf install neovim ripgrep fd-find libtexprintf-tools tree-sitter-cli
 
 1.  Install vim-plug: Simply run the below command.
 
     > curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     >    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-2.  Clone this repo to .config/nvim.
-3.  Install dependancies for finding and grepping.
-
-    > sudo dnf install ripgrep
-    > sudo dnf install fd-find
+2.  Clone this repo to ~/.config/nvim.
 
 4.  Install pyright.
 
@@ -36,5 +32,6 @@ as necessary.
 
     > :TSInstall html
     > :TSInstall latex
+    > :TSInstall yaml
     > :TSInstall <any language you use>
 
