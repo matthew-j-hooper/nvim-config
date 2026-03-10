@@ -28,10 +28,4 @@ as necessary.
 
     > :PlugInstall
 
-6.  Close and reopen Neovim and run:
-
-    > :TSInstall html
-    > :TSInstall latex
-    > :TSInstall yaml
-    > :TSInstall <any language you use>
 
