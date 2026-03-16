@@ -8,14 +8,14 @@
 call plug#begin()
 
 " -- Misc Addons
-Plug 'lewis6991/gitsigns.nvim'			"-Git Intergration
-Plug 'romgrk/barbar.nvim'				"-Reformats Tabs
-Plug 'petertriho/nvim-scrollbar'		"-Adds scrollbar
-Plug 'kevinhwang91/nvim-hlslens'		"-Adds search results to scrollbar
-Plug 'AckslD/nvim-neoclip.lua'			"-Adds Yank History
-Plug 'mechatroner/rainbow_csv'			"-Adds tools for editing csv files
+Plug 'lewis6991/gitsigns.nvim'			" -Git Intergration
+Plug 'romgrk/barbar.nvim'				" -Reformats Tabs
+Plug 'petertriho/nvim-scrollbar'		" -Adds scrollbar
+Plug 'kevinhwang91/nvim-hlslens'		" -Adds search results to scrollbar
+Plug 'AckslD/nvim-neoclip.lua'			" -Adds Yank History
+Plug 'mechatroner/rainbow_csv'			" -Adds tools to edit csv files
 Plug 'MeanderingProgrammer/render-markdown.nvim'
-Plug 'nvim-tree/nvim-web-devicons'		"-Adds Icons, recommended last entry
+Plug 'nvim-tree/nvim-web-devicons'		" -Adds Icons, recommended last entry
 
 " -- Color schemes
 Plug 'ellisonleao/gruvbox.nvim'
