@@ -39,20 +39,11 @@ cmp.setup.cmdline(':', {
   matching = { disallow_symbol_nonprefix_matching = false }
 })
 
-local capabilities = require('cmp_nvim_lsp').default_capabilities()
-vim.lsp.config('pyright', {
-  capabilities = capabilities,
-  settings = {
-    python = {
-      analysis = {
-		diagnosticSeverityOverrides = {
-		  reportMissingImports = "none",
-		},
-        extraPaths = { '/usr/share/blender/4.3/scripts/modules', }
-      }
-    }
-  }
+vim.lsp.config('zubanls', {
+	name = "ZubanLS",
+	cmd = { "/home/matthew/.config/nvim/.venv/bin/zuban", "server" },
+	root_markers = { "pyproject.toml", ".git" },
+	filetypes = { "python" },
 })
 
-vim.lsp.enable('pyright')
-
+vim.lsp.enable("zubanls")

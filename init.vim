@@ -51,4 +51,8 @@ lua require('scrollbar-config')
 lua require('hlslens-config')
 lua require('neoclip-config')
 
+let g:python3_host_prog = "/home/matthew/.config/nvim/.venv/bin/python3"
+let g:loaded_node_provider = 0
+let g:loaded_perl_provider = 0
+let g:loaded_ruby_provider = 0
 colorscheme simpleblack

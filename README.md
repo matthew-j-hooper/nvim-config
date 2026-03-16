@@ -20,9 +20,10 @@ as necessary.
 
 2.  Clone this repo to ~/.config/nvim.
 
-4.  Install pyright.
+4.  Install a python /.venv in your config folder and install these deps.
 
-    > npm install -g pyright
+    > pip install zuban
+    > pip install neovim
 
 5.  Open Neovim and run:
 
