@@ -1,7 +1,7 @@
 require("nvim-treesitter").setup({})
 require("nvim-treesitter").install({
---	"lua",
---	"vim",
+	"lua",
+	"vim",
 	"python",
 	"latex",
 	"html",

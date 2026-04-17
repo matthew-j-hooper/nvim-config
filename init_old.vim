@@ -21,6 +21,7 @@ Plug 'nvim-tree/nvim-web-devicons'		" -Adds Icons, recommended last entry
 Plug 'ellisonleao/gruvbox.nvim'
 Plug 'folke/tokyonight.nvim'
 Plug 'lucasprag/simpleblack'
+Plug 'gtr/rza'
 
 " -- Telescope and Telescope dependancies
 Plug 'nvim-lua/plenary.nvim'
@@ -28,17 +29,19 @@ Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'nvim-telescope/telescope.nvim'
 
-" -- LSP tools
-Plug 'neovim/nvim-lspconfig'
-" -- Completion Engine
+" -- LSP - Completion Engine
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
-" -- Snippets
+" -- LSP - Snippets
 Plug 'L3MON4D3/LuaSnip', { 'do': 'make install_jsregexp' }
 Plug 'saadparwaiz1/cmp_luasnip'
+
+" -- AI Tools
+Plug 'MunifTanjim/nui.nvim'
+Plug 'yetone/avante.nvim', { 'branch': 'main', 'do': 'make' }
 
 call plug#end()
 
@@ -50,6 +53,7 @@ lua require('barbar-config')
 lua require('scrollbar-config')
 lua require('hlslens-config')
 lua require('neoclip-config')
+lua require('avante-config')
 
 let g:python3_host_prog = "/home/matthew/.config/nvim/.venv/bin/python3"
 let g:loaded_node_provider = 0

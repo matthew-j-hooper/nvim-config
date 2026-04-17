@@ -13,20 +13,11 @@ as necessary.
 
     > sudo dnf install neovim ripgrep fd-find libtexprintf-tools tree-sitter-cli
 
-1.  Install vim-plug: Simply run the below command.
+1.  Clone this repo to ~/.config/nvim.
 
-    > curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    >    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+1.  Install a python /.venv in your config folder and install these deps.
 
-2.  Clone this repo to ~/.config/nvim.
+    > pip install zuban neovim
 
-4.  Install a python /.venv in your config folder and install these deps.
-
-    > pip install zuban
-    > pip install neovim
-
-5.  Open Neovim and run:
-
-    > :PlugInstall
-
+1.  Upon startup, make sure to select Y to install all plugins.
 
