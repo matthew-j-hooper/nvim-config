@@ -13,6 +13,10 @@
       "rev": "a4bef5b4fc1f064f2f673172252028eae18191c9",
       "src": "https://github.com/romgrk/barbar.nvim"
     },
+    "barbecue.nvim": {
+      "rev": "3e31404f0b93a2c30d151abf0648650ac811c664",
+      "src": "https://github.com/utilyre/barbecue.nvim"
+    },
     "cmp-buffer": {
       "rev": "b74fab3656eea9de20a9b8116afa3cfc4ec09657",
       "src": "https://github.com/hrsh7th/cmp-buffer"
@@ -52,6 +56,10 @@
     "nvim-hlslens": {
       "rev": "be2d7b2be01860b5445a007ff2bc72b29896db6b",
       "src": "https://github.com/kevinhwang91/nvim-hlslens"
+    },
+    "nvim-navic": {
+      "rev": "f5eba192f39b453675d115351808bd51276d9de5",
+      "src": "https://github.com/SmiteshP/nvim-navic"
     },
     "nvim-neoclip.lua": {
       "rev": "831a97c7697736411a05ff8b91e8798ea4c2d6fb",

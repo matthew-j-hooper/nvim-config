@@ -56,12 +56,10 @@ vim.pack.add({
 	{ src = 'https://github.com/petertriho/nvim-scrollbar', },
 	{ src = 'https://github.com/kevinhwang91/nvim-hlslens', },
 	{ src = 'https://github.com/AckslD/nvim-neoclip.lua', },
-	{ src = 'https://github.com/mechatroner/rainbow_csv', },
 	{ src = 'https://github.com/MeanderingProgrammer/render-markdown.nvim', },
 	{ src = 'https://github.com/nvim-tree/nvim-web-devicons', },
 
 	-- color schemes
-	{ src = 'https://github.com/ellisonleao/gruvbox.nvim', },
 	{ src = 'https://github.com/folke/tokyonight.nvim', },
 	{ src = 'https://github.com/lucasprag/simpleblack', },
 	{ src = 'https://github.com/gtr/rza', },
