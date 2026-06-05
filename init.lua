@@ -68,7 +68,6 @@ vim.pack.add({
 
 	-- Telescope and Telescope dependancies
 	{ src = 'https://github.com/nvim-lua/plenary.nvim', },
-	{ src = 'https://github.com/nvim-treesitter/nvim-treesitter', },
 	{ src = 'https://github.com/nvim-telescope/telescope-fzf-native.nvim', },
 	{ src = 'https://github.com/nvim-telescope/telescope.nvim', },
 
@@ -88,7 +87,6 @@ require('barbar').setup({ auto_hide = 1 })
 require('neoclip').setup()
 
 require('telescope-config')
-require('treesitter-config')
 require('lspconfig-config')
 require('scrollbar-config')
 
