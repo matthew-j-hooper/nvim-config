@@ -46,4 +46,12 @@ vim.lsp.config('zubanls', {
 	filetypes = { "python" },
 })
 
+vim.lsp.config('ruff', {
+	name = "ruff",
+	cmd = { "/home/matthew/.config/nvim/.venv/bin/ruff", "server" },
+	root_markers = { "pyproject.toml", ".git" },
+	filetypes = { "python" },
+})
+
 vim.lsp.enable("zubanls")
+vim.lsp.enable("ruff")

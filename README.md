@@ -17,7 +17,7 @@ as necessary.
 
 1.  Install a python /.venv in your config folder and install these deps.
 
-    > pip install zuban neovim
+    > pip install zuban ruff black neovim
 
 1.  Upon startup, make sure to select Y to install all plugins.
 
