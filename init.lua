@@ -25,18 +25,6 @@ vim.api.nvim_create_autocmd('PackChanged', { callback = function(ev)
 		vim.fn.jobwait({func})
 	end
 
-	if name == 'avante.nvim' and kind ~= 'delete' then
-		func = vim.fn.jobstart({ 'make' }, {
-			cwd = ev.data.path,
-			on_exit = function(_, code)
-				if code ~= 0 then
-					vim.notify(name..' failed (make returned '..tostring(code)..')', vim.log.levels.ERROR)
-				end
-			end,
-		})
-		vim.fn.jobwait({func})
-	end
-
 	if name == 'LuaSnip' and kind ~= 'delete' then
 		func = vim.fn.jobstart({ 'make', 'install_jsregexp' }, {
 			cwd = ev.data.path,
